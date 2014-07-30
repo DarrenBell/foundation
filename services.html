@@ -1,0 +1,172 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Design for Foundation</title>
+  <link rel="stylesheet" href="css/foundation.css" />
+  <script src="js/vendor/modernizr.js"></script>
+</head>
+<body>
+  <div class="row">
+    <div class="large-12 columns">
+      <h1>Welcome to Foundation</h1>
+    </div>
+  </div>
+
+  <div class="contain-to-grid sticky">
+    <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <ul class="left">
+          <li class="divider"></li>
+          <li><a href="index.html">Home</a></li>
+          <li class="divider"></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li class="divider"></li>
+          <li class="active" id="firstStop"><a href="services.html">Services</a></li>
+          <li class="divider"></li>
+        </ul>
+
+        <ul id="stop5" class="right">
+          <li>
+            <a href="contact.html" class="alert button">Get in touch!</a>
+          </li>
+        </ul>
+      </section>
+    </nav>
+  </div>
+  <div class="row">
+    <div class="large-12 columns">
+      &nbsp;
+    </div>
+  </div>
+  <div id="stop2" class="row">
+    <div class="large-12 columns">
+      <ul class="large-block-grid-3">
+        <li>
+          <ul class="pricing-table">
+            <li class="title">Introductory Package</li>
+            <li class="description">Introductory Design Package</li>
+            <li class="bullet-item">Item 1</li>
+            <li class="bullet-item">Item 2</li>
+            <li class="bullet-item">Item 3</li>
+            <li class="bullet-item">Item 4</li>
+            <li class="price">$9.99</li>
+            <li class="cta-button"><a class="button" href="#">Purchase</a></li>
+          </ul>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Premium Package</li>
+              <li class="description">Premium Design Package</li>
+              <li class="bullet-item">Item 1</li>
+              <li class="bullet-item">Item 2</li>
+              <li class="bullet-item">Item 3</li>
+              <li class="bullet-item">Item 4</li>
+              <li class="price">$19.99</li>
+              <li class="cta-button"><a class="button" href="#">Purchase</a></li>
+            </ul>
+            <li>
+              <ul class="pricing-table">
+                <li class="title">Custom Package</li>
+                <li class="description">Custom Design Package</li>
+                <li class="bullet-item">Item 1</li>
+                <li class="bullet-item">Item 2</li>
+                <li class="bullet-item">Item 3</li>
+                <li class="bullet-item">Item 4</li>
+                <li class="price">$29.99</li>
+                <li class="cta-button"><a class="button" href="#">Purchase</a></li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div id="stop3" class="large-6 columns">
+            <table>
+              <thead>
+                <tr>
+                  <th>Features</th>
+                  <th>Introductory</th>
+                  <th>Premium</th>
+                  <th>Custom</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Feature 1</td>
+                  <td>&#x2713;</td>
+                  <td>&#x2713;</td>
+                  <td>&#x2713;</td>
+                </tr>
+                <tr>
+                  <td>Feature 2</td>
+                  <td>&#x2713;</td>
+                  <td>&#x2713;</td>
+                  <td>&#x2713;</td>
+                </tr>
+                <tr>
+                  <td>Feature 3</td>
+                  <td>&nbsp;</td>
+                  <td>&#x2713;</td>
+                  <td>&#x2713;</td>
+                </tr>
+                <tr>
+                  <td>Feature 4</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&#x2713;</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div id="stop4" class="large-6 columns">
+            <dl class="tabs" data-tab>
+              <dd class="active"><a href="#panel1">Customer 1</a></dd>
+              <dd><a href="#panel2">Customer 2</a></dd>
+              <dd><a href="#panel3">Customer 3</a></dd>
+            </dl>
+          </div>
+          <div class="tabs-content">
+            <div class="content active" id="panel1">
+              <p>Customer testimonial 1</p>
+            </div>
+            <div class="content" id="panel2">
+              <p>Customer testimonial 2</p>
+            </div>
+            <div class="content" id="panel3">
+              <p>Customer testimonial 3</p>
+            </div>
+          </div>
+          <ol class="joyride-list" data-joyride>
+            <li data-id="firstStop" data-text="Next" data-options="tip_location: top">
+              <p>Welcome to our Services page. Here you'll find all the information you'll need to get started with our design services.</p>
+            </li>
+            <li data-id="stop2" data-text="Next">
+              <p>Check out our different packages here.</p>
+            </li>
+            <li data-id="stop3" data-text="Next">
+              <p>You can find a feature comparison down here for quick reference.</p>
+            </li>
+            <li data-id="stop4" data-text="Next">
+              <p>If you'd like to know what others are saying about our services, you can browse them here.</p>
+            </li>
+            <li data-id="stop5" data-button="End">
+              <p>Remember, no project is too small or too big. Feel free to contact us for a free quote today!</p>
+            </li>
+          </ol>
+        </div>
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/foundation.min.js"></script>
+        <script src="js/foundation/foundation.joyride.js"></script>
+        <script src="js/vendor/jquery.cookie.js"></script>
+        <script>
+        $(document).foundation();
+        $(document).foundation('joyride', 'start');
+        </script>
+      </body>
+      </html>
